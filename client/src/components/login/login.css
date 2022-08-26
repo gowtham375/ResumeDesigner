@@ -1,0 +1,71 @@
+.log_bg{
+    background-image:url("https://media.istockphoto.com/photos/modern-keyboard-wih-blue-log-in-button-picture-id638149354?b=1&k=20&m=638149354&s=170667a&w=0&h=K_dd1EuWBMmyU0A5IN4igEUROFozhvtj7CtJ0GswHLE=");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login{
+    background-color: rgba(39, 36, 36, 0.8);
+    padding: 3%;
+    width: max-content;    
+  }
+  .login1{
+    position: relative;
+    color: #fff;
+  }
+  .button_log{
+    background-color: rgba(87, 235, 235, 0.782);
+  }
+  .para_log{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+  /* label{
+    font-size: 15px;
+    color: #fff;
+  } */
+  .check{
+    font-size: 10px;
+    color: #fff;
+  }
+  .box{
+    margin-left: 120px;
+  }
+  /* @media screen and (max-width: 1200px){
+      .login{
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+  @media screen and (min-width: 260px){
+    .login{
+      width: max-content;
+      /* display: flex; */
+      /* justify-content: center;
+      align-items: center;
+
+    }
+}
+@media screen and (max-width: 1200px){
+  .wrapper{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+      align-items: center;
+  }
+}
+@media screen and (min-width: 920px){
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+      align-items: center;
+}
+} */ 
+  

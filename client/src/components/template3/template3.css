@@ -1,0 +1,178 @@
+.img_t3{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.right_heading1_t3{
+    font-weight: bold;
+    font-family: small;
+    font-size: 20px;
+}
+.right_heading2_t3{
+    font-family: small;
+    font-size: 25px;
+}
+.top_left_heading_t3{
+    background-color:#fae5ac;
+    font-family: 'small';
+}
+.top_left_head_t3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.top_left_hpara_t3{
+    font-size: 23px;
+}
+.top_right_head_t3{
+    font-size: 50px;
+    font-family: 'small';
+    font-weight: bold;
+}
+.top_right_head1_t3{
+    font-size: 20px;
+    font-family: 'small';
+    font-weight: bold;
+}
+.detail_t3{
+    font-family: 'small';
+    font-size: 18px;    
+}
+.top_center_heading_t3{
+    width: 100%;
+    height: 100%;
+    background-color: #fae5ac;
+
+}
+.right_heading_t3{
+    background-color: #feefef;
+    /* height: 100vh; */
+}
+.top_center_heading1_t3{
+    background-color: #feefef;
+    
+}
+.inpara_t3{
+    margin-left: auto;
+}
+.para_t3{
+    font-family: 'small';
+    font-size: 18px;
+}
+.inhead_t3{
+    font-family: solid;
+    font-weight: bold;
+}
+.button1_t3{
+    padding: 8px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #a37eed;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button2_t3{
+    padding: 8px 8px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    /* color: #fff; */
+    background-color: #c8ed7e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button3_t3{
+    padding: 8px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #a37eed;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.icon_temp3{
+    margin-left: 20px;
+}
+.icon1_temp3{
+    margin-right: 20px;
+}
+.bd_3{
+    padding: 25px;
+}
+@media only screen and (max-width:300px){
+    .right_heading1_t3,.top_left_heading_t3,.top_left_head_t3,.top_left_hpara_t3,
+    .detail_t3,.top_center_heading_t3,.right_heading_t3,
+    .top_center_heading1_t3,.inpara_t3,.para_t3,.inhead_t3,.button1_t3,.button2_t3,.button3_t3{
+        width: 100%;
+        height: 100%;
+        font-size: 10px;
+        position: relative;
+        /* position: absolute; */
+    }
+}
+@media only screen and (max-width:580px){
+    .right_heading1_t3,.top_left_heading_t3,.top_left_head_t3,.top_left_hpara_t3,.right_heading2_t3,
+    .top_right_head_t3,.top_right_head1_t3,.detail_t3,.top_center_heading_t3,.right_heading_t3,
+    .top_center_heading1_t3,.inpara_t3,.para_t3,.inhead_t3,.button1_t3,.button2_t3,.button3_t3{
+        width: 100%;
+        font-size: 10px;
+        height: 100%;
+        position: relative;
+        /* position: absolute; */
+    }
+}
+@media only screen and (max-width:720px){
+    .right_heading1_t3,.top_left_heading_t3,.top_left_head_t3,.top_left_hpara_t3,
+    .top_right_head_t3,.top_right_head1_t3,.detail_t3,.top_center_heading_t3,.right_heading_t3,
+    .top_center_heading1_t3,.inpara_t3,.para_t3,.inhead_t3,.button1_t3,.button2_t3,.icon_temp3,.icon1_temp3{
+        width: 100%;
+        font-size: 10px;
+        position: relative;
+        /* position: absolute; */
+    }
+}
+@media only screen and (max-width:300px){
+    .right_heading2_t3,.top_right_head_t3,.top_right_head1_t3{
+        width: 100%;
+        font-size: 10px;
+        height: 100%;
+        /* position: absolute; */
+        position: relative;
+    }
+    
+}
+.button1_t3:hover{
+    transform: scale(1.2,1.2);
+    background-color: #3e8e41;
+}
+.button2_t3:hover{
+    transform: scale(1.2,1.2);
+}
+.button3_t3:hover{
+    transform: scale(1.2,1.2);
+    background-color: #3e8e41;
+}
+.button1_t3:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button2_t3:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button3_t3:active {
+    background-color: palevioletred;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

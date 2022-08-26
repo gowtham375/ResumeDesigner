@@ -1,0 +1,56 @@
+.bg{
+    background-image: url("https://assets-global.website-files.com/5ffd61d36b01f7a71eb30509/61a0a4f8ad4af8c6452c09cd_How%20to%20Make%20a%20Powerful%20Resume%20Work%20Experience.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading_home{
+    font-size: 70px;
+    color: #fff;
+    /* position: relative; */
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.heading1_home{
+    font-size: 40px;
+    color: #fff;
+    /* position: relative; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.home_box{
+    width: max-content;
+    padding: 3%;
+    background-color: rgba(39, 36, 36, 0.8);
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.button_home{
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: bold;
+}
+.icon_home{
+    margin-left: 20px;
+}
+@keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:200px; top:0px;}
+    50%  {color:rgb(212, 0, 255); left:200px; top:200px;}
+    75%  {color:rgb(2, 254, 229); left:0px; top:200px;}
+    100% {color:red; left:0px; top:0px;}
+  }

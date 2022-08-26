@@ -1,0 +1,19 @@
+.sign1{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/455/346/398/macro-blur-keyboard-laptop-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    
+    width: max-content;
+    padding: 3%;
+    background-color: rgba(39, 36, 36, 0.4);
+}
+.sign2{
+    position: relative;
+}
+        

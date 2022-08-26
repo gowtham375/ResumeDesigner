@@ -1,0 +1,48 @@
+.wrapper{
+  padding: 25px;
+  background-image:url("https://kothanalloorforane.church/assets/images/secure.jpg");
+  /* background-color: yellowgreen; */
+  height: 100vh;
+  background-size: cover;
+}
+.login{
+  background-color: transparent;
+  border: solid 2px;
+  border-radius: 10px;
+  border-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  /* margin-bottom: 0px; */
+  padding: 3%;
+  width: max-content;
+  
+}
+#inp1{
+  padding: 3px;
+  width: 300px;
+}
+
+#inp2{
+  padding: 3px;
+  width: 300px;
+}
+.button1{
+  width: 300px;
+}
+.para{
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+label{
+  font-size: 15px;
+  color: #fff;
+}
+#check{
+  font-size: 10px;
+  color: #fff;
+}
+.box{
+  margin-left: 120px;
+}
